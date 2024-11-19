@@ -13,7 +13,7 @@ const packageDefinition = protoLoader.loadSync(PROTO_PATH, {
 
 const videoProto = grpc.loadPackageDefinition(packageDefinition).video;
 
-const VIDEO_DIRECTORY = path.join(process.env.VIDEO_PATH_BASE, 'videos');
+const VIDEO_DIRECTORY = path.join('C:/videos_uploaded', 'videos');
 
 module.exports = {
     videoProto,
